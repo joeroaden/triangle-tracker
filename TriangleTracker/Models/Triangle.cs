@@ -29,7 +29,7 @@ namespace TriangleTracker.Models
     }
     else 
     {
-      return "not valid";
+      return "isosceles triangle";
     }
   }
   }
