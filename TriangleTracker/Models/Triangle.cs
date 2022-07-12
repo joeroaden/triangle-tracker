@@ -20,6 +20,9 @@ namespace TriangleTracker.Models
     {
       return "not a triangle";
     }
+    else if ((SideOne != SideTwo) && (SideOne != SideThree) && (SideTwo != SideThree)) {
+      return "scalene triangle";
+    }
     else if (SideOne == SideTwo && SideOne == SideThree)
     {
       return "equilateral triangle";
